@@ -1,26 +1,88 @@
-0.0.0.0 androidtvchannels-pa.googleapis.com
-0.0.0.0 androidtvwatsonfe-pa.googleapis.com
-0.0.0.0 api-gps-em.hismarttv.com
-0.0.0.0 auth-em.hismarttv.com
-0.0.0.0 msg-em.hismarttv.com
-0.0.0.0 api-launcher-em.hismarttv.com
-0.0.0.0 auth-launcher-em.hismarttv.com
-0.0.0.0 api-gps-na.hismarttv.com
-0.0.0.0 auth-na.hismarttv.com
-0.0.0.0 msg-na.hismarttv.com
-0.0.0.0 api-launcher-na.hismarttv.com
-0.0.0.0 auth-launcher-na.hismarttv.com
-0.0.0.0 unified-ter-na.hismarttv.com
-0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
-0.0.0.0 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
-0.0.0.0 api-mf1.meta.ndmdhs.com
-0.0.0.0 b02.black.ndmdhs.com
-0.0.0.0 bravia.dl.playstation.net
-0.0.0.0 call.me.sel.sony.com
-0.0.0.0 flingo.tv
-0.0.0.0 sonybivstatic-a.akamaihd.net
-0.0.0.0 facemap.foldlife.net
-0.0.0.0 bdcore-apr-lb.bda.ndmdhs.com
-0.0.0.0 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
-0.0.0.0 api.cid.samba.tv
-0.0.0.0 preferences.cid.samba.tv
+androidtvchannels-pa.googleapis.com
+androidtvwatsonfe-pa.googleapis.com
+api-gps-em.hismarttv.com
+auth-em.hismarttv.com
+msg-em.hismarttv.com
+api-launcher-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+api-gps-na.hismarttv.com
+auth-na.hismarttv.com
+msg-na.hismarttv.com
+api-launcher-na.hismarttv.com
+auth-launcher-na.hismarttv.com
+unified-ter-na.hismarttv.com
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+api-mf1.meta.ndmdhs.com
+b02.black.ndmdhs.com
+bravia.dl.playstation.net
+call.me.sel.sony.com
+flingo.tv
+sonybivstatic-a.akamaihd.net
+facemap.foldlife.net
+bdcore-apr-lb.bda.ndmdhs.com
+tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+api.cid.samba.tv
+preferences.cid.samba.tv
+
+# From https://github.com/mmotti/pihole-regex/blob/master/regex.list
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^analytics?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^mads\.
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+
+# From https://www.youtube.com/watch?v=o-bxDuH_T6I
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^analytics?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^mads\.
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?secure\.footprint\.net/
+^https?://([A-Za-z0-9.-]*\.)?match\.com/
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap\.bc\.yahoo(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?sitescout(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?appnexus(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?evidon(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?mediamath(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?flashtalking(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?turn(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?mathtag(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?googlesyndication(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?s\.yimg\.com/cv/ae/us/audience/
+^https?://([A-Za-z0-9.-]*\.)?clicks\.beap/
+^https?://([A-Za-z0-9.-]*\.)?.doubleclick(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?yieldmanager(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?w55c(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?adnxs(\.\w{2}\.\w{2}|\.\w{2,4})/
+^https?://([A-Za-z0-9.-]*\.)?advertising\.com/
+^https?://([A-Za-z0-9.-]*\.)?evidon\.com/
+^https?://([A-Za-z0-9.-]*\.)?scorecardresearch\.com/
+^https?://([A-Za-z0-9.-]*\.)?flashtalking\.com/
+^https?://([A-Za-z0-9.-]*\.)?turn\.com/
+^https?://([A-Za-z0-9.-]*\.)?mathtag\.com/
+^https?://([A-Za-z0-9.-]*\.)?surveylink/
+^https?://([A-Za-z0-9.-]*\.)?info\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?ads\.yahoo\.com/
+^https?://([A-Za-z0-9.-]*\.)?global\.ard\.yahoo\.com/

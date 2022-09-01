@@ -1,2 +1,1 @@
-# youtube-ads-hosts
-For Sony Bravia TV
+Block Youtube Ads (I hope?)
