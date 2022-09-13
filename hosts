@@ -26,22 +26,12 @@ api.cid.samba.tv
 preferences.cid.samba.tv
 
 # From https://github.com/mmotti/pihole-regex/blob/master/regex.list
-^advert(s|is(ing|ements?))?[0-9]*[_.-]
-^aff(iliat(es?|ion))?[_.-]
-^analytics?[_.-]
-^banners?[_.-]
-^beacons?[0-9]*[_.-]
 ^count(ers?)?[0-9]*[_.-]
 ^mads\.
 ^pixels?[-.]
 ^stat(s|istics)?[0-9]*[_.-]
 
 # From https://www.youtube.com/watch?v=o-bxDuH_T6I
-^advert(s|is(ing|ements?))?[0-9]*[_.-]
-^aff(iliat(es?|ion))?[_.-]
-^analytics?[_.-]
-^banners?[_.-]
-^beacons?[0-9]*[_.-]
 ^count(ers?)?[0-9]*[_.-]
 ^mads\.
 ^pixels?[-.]
